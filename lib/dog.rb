@@ -8,5 +8,12 @@ class Dog
    @a_dog_name
  end 
  
+ fido = Dog.new
+fido.name = "Fido"
  
+fido.name
+# => "Fido"
+ 
+fido.bark
+puts "woof!"
 end 
